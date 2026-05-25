@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scale-Up Investment Scheme - Policy Pack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#1a1c22;--paper:#f6f3ec;--line:#cfc8b8;--accent:#1f5c6b;--gold:#b9892f;--warn:#b23a2e;--muted:#5f5c54;--band:#e9e3d4;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:#3a3a3a;}
+  body{font-family:'IBM Plex Sans',sans-serif;color:var(--ink);line-height:1.5;padding:28px 16px;display:flex;flex-direction:column;align-items:center;gap:26px;}
+  .page{width:210mm;min-height:297mm;background:var(--paper);background-image:radial-gradient(var(--line) 0.5px,transparent 0.5px);background-size:22px 22px;padding:16mm 15mm 12mm;box-shadow:0 18px 60px rgba(0,0,0,.45);position:relative;}
+  .kicker{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:600;display:flex;justify-content:space-between;align-items:center;border-bottom:1.5px solid var(--ink);padding-bottom:7px;}
+  h1{font-family:'Fraunces',serif;font-weight:900;font-size:32px;line-height:1.04;letter-spacing:-.015em;margin:14px 0 3px;}
+  h1 .em{color:var(--accent);font-style:italic;font-weight:400;}
+  .standfirst{font-family:'Fraunces',serif;font-size:14px;font-weight:400;color:var(--muted);max-width:64ch;margin-bottom:14px;}
+  .bluf{background:var(--ink);color:var(--paper);padding:12px 15px;border-radius:2px;margin-bottom:15px;font-size:12.5px;}
+  .bluf b{color:#f2c14e;font-weight:600;}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  h2{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid var(--line);}
+  p{font-size:12px;margin-bottom:8px;}
+  .specrow{display:flex;gap:10px;padding:5px 0;border-bottom:1px dotted var(--line);align-items:baseline;}
+  .specrow:last-child{border-bottom:none;}
+  .specrow .k{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:10px;color:var(--accent);min-width:92px;text-transform:uppercase;letter-spacing:.04em;}
+  .specrow .v{font-size:11.5px;}
+  .specrow .v b{font-weight:600;}
+  .vs{color:var(--muted);font-size:10px;}
+  svg{width:100%;height:auto;display:block;}
+  .cap{font-size:9.5px;color:var(--muted);font-family:'IBM Plex Mono',monospace;line-height:1.45;margin-top:2px;}
+  table{width:100%;border-collapse:collapse;font-size:10.8px;margin-top:2px;}
+  th,td{text-align:right;padding:5px 6px;border-bottom:1px solid var(--line);}
+  th:first-child,td:first-child{text-align:left;}
+  thead th{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);border-bottom:1.5px solid var(--ink);}
+  tbody tr:last-child td{border-bottom:none;}
+  .band{font-family:'IBM Plex Mono',monospace;color:var(--gold);font-weight:600;}
+  .pos{color:var(--accent);font-weight:600;}
+  .warnc{color:var(--warn);font-weight:600;}
+  .full{grid-column:1 / -1;}
+  .note{background:var(--band);border-left:3px solid var(--warn);padding:8px 12px;font-size:10.8px;margin-top:8px;}
+  .note b{font-weight:600;color:var(--warn);}
+  .takeaway{margin-top:13px;border:1.5px solid var(--ink);border-radius:2px;padding:12px 15px;background:var(--band);}
+  .takeaway h2{border:none;margin-bottom:5px;}
+  .takeaway p{font-size:12px;margin-bottom:5px;}
+  .takeaway p:last-child{margin-bottom:0;}
+  .foot{margin-top:12px;padding-top:8px;border-top:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;line-height:1.5;}
+  @media print{@page{size:A4;margin:0;}html,body{background:#fff;padding:0;gap:0;}.page{box-shadow:none;width:100%;min-height:auto;page-break-after:always;}}
+</style>
+</head>
+<body>
+<!-- ============ PAGE 1: SPEC ============ -->
+<div class="page">
+  <div class="kicker"><span>Policy Sketch · Growth-Stage Capital · 1 of 5</span><span>v0.4 · illustrative</span></div>
+  <h1>The Scale-Up Investment Scheme <span class="em">(SUIS)</span></h1>
+  <p class="standfirst">A growth-stage vehicle that begins where EIS legally stops, aimed at the &pound;5m&ndash;&pound;50m rounds where UK companies either scale or sell to an overseas buyer. The state does not give a tax rebate; it co-invests alongside private money, takes a capped equity stake, and recycles the proceeds. It is built to be the vetted pipeline the Mansion House pension money is waiting for, and to be bought in slices small enough for an ordinary saver.</p>
+  <div class="bluf"><b>The proposal.</b> Hold the existing &pound;0.95bn EIS, SEIS and VCT relief envelope and stand up a new growth tier delivered as <b>government co-investment, not relief</b>. The state matches private capital 25p in the pound, caps its own return, and gifts the surplus back to investors. Across a diversified book the winners repay the stake, so the Exchequer ends near break-even while the investor keeps a full return. It plugs the scale-up gap, supplies the UK assets the Mansion House Accord needs, and turns a single-company gamble into a downside-protected bet.</div>
+
+  <div class="grid">
+    <div>
+      <h2>Scheme parameters</h2>
+      <div class="specrow"><span class="k">Mechanism</span><span class="v"><b>Government co-investment</b>, not tax relief. The state invests beside private money on the same deal &mdash; see p.2 for the waterfall.</span></div>
+      <div class="specrow"><span class="k">Match rate</span><span class="v"><b>25p per &pound;1</b> of private capital, applied to <b>both retail and pension</b> investors.</span></div>
+      <div class="specrow"><span class="k">Patience ramp</span><span class="v">The typical hold is ~7 years; for commitments held <b>10 years or more</b> the government <b>lowers its return cap to capital-only</b> (no ~3% accrual), gifting more upside to the most patient investors. Patience is rewarded through the waterfall, not a rebate.</span></div>
+      <div class="specrow"><span class="k">Qualifying co.</span><span class="v">Gross assets <b>&pound;15m&ndash;&pound;100m</b>, up to <b>~1,000 staff</b>, trading under 15 years <span class="vs">(EIS stops at &pound;15m / 250 / 7yr)</span></span></div>
+      <div class="specrow"><span class="k">Company raise</span><span class="v"><b>&pound;20m a year, &pound;50m lifetime</b> <span class="vs">(EIS: &pound;5m / &pound;12m)</span> &mdash; enough for a Series B or C</span></div>
+      <div class="specrow"><span class="k">Two tiers</span><span class="v"><b>Sophisticated / HNW</b> (FCA-certified): up to <b>&pound;2m a year</b>, may invest <b>direct</b> in single companies. <b>Retail</b> (everyone else): <b>pooled funds only</b>, lower cap (e.g. &pound;50k/yr). The cap and the direct-access right are the same gate.</span></div>
+      <div class="specrow"><span class="k">CGT</span><span class="v">Exempt after a <b>4-year hold</b> <span class="vs">(EIS: 3 years)</span></span></div>
+      <div class="specrow"><span class="k">Loss relief</span><span class="v"><b>Retained</b> for taxable investors. This is the floor that makes the retail case work.</span></div>
+      <div class="specrow"><span class="k">Risk gate</span><span class="v">Retail goes through a <b>20+ deal fund</b> (LTAF or RIF), turning the 32% single-deal loss rate into a near-0% portfolio one. Direct angels accept single-deal risk knowingly &mdash; their choice, and it does not touch the state's book, which is diversified across all deals regardless.</span></div>
+
+      <h2 style="margin-top:13px">The downside floor (per &pound;1, total loss)</h2>
+      <svg viewBox="0 0 920 215" role="img" aria-label="Loss waterfall on a total wipeout">
+        <g font-family="IBM Plex Mono, monospace" font-size="13" fill="#5f5c54" text-anchor="middle">
+          <rect x="60" y="25" width="150" height="150" fill="#1f5c6b"/><text x="135" y="195">Invested</text><text x="135" y="18" fill="#1a1c22" font-weight="600">&pound;1.00</text>
+          <rect x="270" y="25" width="150" height="37.5" fill="#b9892f"/><text x="345" y="195">Loss relief</text><text x="345" y="18" fill="#1a1c22" font-weight="600">&minus;&pound;0.25</text>
+          <rect x="480" y="25" width="150" height="112.5" fill="#1f5c6b" opacity="0.45"/><text x="555" y="195">At risk</text><text x="555" y="18" fill="#1a1c22" font-weight="600">&pound;0.75</text>
+          <rect x="690" y="25" width="150" height="50.6" fill="#b9892f"/><text x="765" y="195">Loss relief</text><text x="765" y="18" fill="#1a1c22" font-weight="600">&minus;&pound;0.34</text>
+        </g>
+        <line x1="60" y1="175" x2="900" y2="175" stroke="#1a1c22" stroke-width="1.5"/>
+        <line x1="690" y1="75.6" x2="900" y2="75.6" stroke="#b23a2e" stroke-width="2" stroke-dasharray="5 4"/>
+        <text x="898" y="112" font-family="Fraunces, serif" font-size="21" font-weight="600" fill="#b23a2e" text-anchor="end">loss &asymp; 41p</text>
+      </svg>
+      <p class="cap">On a complete loss, a 45%-rate retail investor keeps loss relief on the 75p at risk. The most they lose is about 41p in the pound. Pension money is already sheltered, so its floor comes from the co-investment structure rather than relief.</p>
+    </div>
+    <div>
+      <h2>Modelled returns, 95% bands</h2>
+      <table>
+        <thead><tr><th>Book</th><th>Net median</th><th>95% band</th><th>Net IRR</th></tr></thead>
+        <tbody>
+          <tr><td>Single deal</td><td>1.66&times;</td><td class="band">0.6&ndash;10.1&times;</td><td class="vs">gamble</td></tr>
+          <tr><td>10-deal fund</td><td>2.39&times;</td><td class="band">1.28&ndash;4.53&times;</td><td class="pos">10.9%</td></tr>
+          <tr><td><b>20-deal fund</b></td><td><b>2.46&times;</b></td><td class="band">1.57&ndash;3.87&times;</td><td class="pos">11.4%</td></tr>
+          <tr><td>50-deal fund</td><td>2.50&times;</td><td class="band">1.87&ndash;3.34&times;</td><td class="pos">11.7%</td></tr>
+        </tbody>
+      </table>
+      <p class="cap">Monte Carlo, 200,000 runs, ~7-year hold to exit, 25% match, capped government return with surplus gifted back, gains free of CGT. Net IRR uses the median multiple over seven years. A single deal loses money 32% of the time; a 20-deal book almost never does. Diversification plus the structure turn variance into a floor.</p>
+
+      <h2 style="margin-top:12px">The barbell, quantified</h2>
+      <table>
+        <thead><tr><th>SUIS slice</th><th>7yr median</th><th>vs tracker (7yr)</th><th>Tail (7yr)</th></tr></thead>
+        <tbody>
+          <tr><td>0% (tracker)</td><td>1.407&times;</td><td class="vs">&mdash;</td><td class="vs">&mdash;</td></tr>
+          <tr><td>2%</td><td>1.426&times;</td><td class="pos">+1.3%</td><td class="band">+3.9%</td></tr>
+          <tr><td><b>3%</b></td><td><b>1.436&times;</b></td><td class="pos">+2.0%</td><td class="band">+5.8%</td></tr>
+          <tr><td>5%</td><td>1.454&times;</td><td class="pos">+3.4%</td><td class="band">+9.7%</td></tr>
+        </tbody>
+      </table>
+      <p class="cap">A 97% global tracker (5% real a year) with a small SUIS slice through a diversified fund, both held seven years. Figures are <b>total uplift on the 7-year terminal value</b>, not annual: a 3% slice lifts the 7-year multiple from 1.407&times; to 1.436&times;, and adds +5.8% in the strong tail (97.5th percentile) over the whole seven years. The downside barely moves off the tracker floor; the upside is convex.</p>
+
+      <h2 style="margin-top:12px">Mansion House fit</h2>
+      <p>The 2025 Accord directs about <b>&pound;12.6bn</b> toward UK private markets by 2030 (5% of &pound;252bn), but only "assuming a sufficient supply of suitable investible assets." That supply gap is what SUIS manufactures.</p>
+      <div class="specrow"><span class="k">Designation</span><span class="v">SUIS-qualifying firms count toward the Accord's 5% UK allocation: a ready, pre-vetted pipeline.</span></div>
+      <div class="specrow"><span class="k">Pension match</span><span class="v">Pension co-investment is <b>matched on the same 25% terms</b> as retail, keeping the structure uniform and legible (cost on p.2).</span></div>
+      <div class="specrow"><span class="k">Wrapper</span><span class="v">Delivered through the <b>LTAF</b> or <b>Reserved Investor Fund</b>.</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>Sources: HMRC EIS/SEIS statistics, May 2025; EISA; Mansion House Accord, May 2025. Model: author Monte Carlo, illustrative.</span><span>p.1 of 5</span></div>
+</div>
+<!-- ============ PAGE 2: MERGED FISCAL + MECHANISM ============ -->
+<div class="page">
+  <div class="kicker"><span>The Fiscal Case · Cost, Value &amp; Mechanism · 2 of 5</span><span>v0.4 · illustrative</span></div>
+  <h1>What it costs, <span class="em">what it buys</span></h1>
+  <p class="standfirst">A matched equity stake, not a rebate. The state co-invests beside private money, caps its own return, and hands the surplus back. Across a diversified book the winners repay the stake, so the Exchequer ends near break-even while more capital reaches companies than relief would deliver. Cost and value sit in three separate ledgers, kept apart here.</p>
+  <div class="bluf"><b>Bottom line.</b> Figures here are <b>per annual cohort</b> &mdash; the unit the scheme runs on. One central cohort, both retail and pension matched at 25%: about <b>&pound;3.8bn of private capital mobilised</b>, <b>&pound;4.7bn deployed</b> into companies, a Treasury position of roughly <b>break-even</b> over the life of the book, <b>~&pound;2.8bn of additional GVA</b>, and <b>~&pound;9bn of investor wealth</b> at maturity. Run annually, these stack into the five-cohort totals on p.5. The case turns on <b>additionality</b>: the structure creates value above roughly 39% and is modelled at 60%.</div>
+
+  <div class="grid">
+    <div>
+      <h2>Three ledgers, per &pound;1bn private capital</h2>
+      <table>
+        <thead><tr><th>&nbsp;</th><th>Exchequer</th><th>GVA</th><th>Investor</th></tr></thead>
+        <tbody>
+          <tr><td>Co-invest (this scheme)</td><td class="pos">&minus;&pound;39m</td><td>&pound;750m</td><td>2.46&times;</td></tr>
+          <tr><td><span class="vs">Tax relief, for contrast</span></td><td class="warnc"><span class="vs">+&pound;393m</span></td><td><span class="vs">&pound;600m</span></td><td><span class="vs">2.44&times;</span></td></tr>
+        </tbody>
+      </table>
+      <p class="cap">A negative Exchequer figure is a net return. Co-investment beats relief on every ledger: cheaper for the state, more GVA (because the match goes into companies rather than being rebated, so 25% more capital reaches firms), and an equal investor return. Relief is shown only to mark the gain from the switch.</p>
+
+      <h2 style="margin-top:13px">How the waterfall works</h2>
+      <p>The investor commits &pound;1. The government co-invests <b>25p</b> alongside, so &pound;1.25 reaches the company. Both hold equity in proportion. On exit, three rules apply in order:</p>
+      <div class="specrow"><span class="k">1 · Floor</span><span class="v">The taxable investor keeps <b>loss relief</b> on any shortfall, as under EIS. Downside protection is preserved.</span></div>
+      <div class="specrow"><span class="k">2 · Cap</span><span class="v">The government takes back its 25p plus a <b>modest fixed return</b> (capital + ~3% a year), and no more.</span></div>
+      <div class="specrow"><span class="k">3 · Gift</span><span class="v">Any value above that cap on the state's stake is <b>handed to the investor</b>, lifting their return.</span></div>
+      <p style="margin-top:6px">This is the Enterprise Capital Fund waterfall: the state caps its own upside to pull private money in rather than crowd it out. Because winners repay the capped stake reliably across 20 or more deals, the government can afford to give the surplus away and still end roughly even. Selection sits with private fund managers; the state expresses no view on any single company.</p>
+
+      <div class="note"><b>Diversity is load-bearing.</b> The state can only give the upside away because, across a diversified book, winners repay its stake reliably. On one deal that repayment is a coin toss and the structure breaks. This is why retail access must be pooled-fund only.</div>
+    </div>
+
+    <div>
+      <h2>The ledger flips with equity</h2>
+      <svg viewBox="0 0 920 250" role="img" aria-label="Exchequer net position: relief versus co-investment">
+        <line x1="70" y1="120" x2="900" y2="120" stroke="#1a1c22" stroke-width="1.5"/>
+        <text x="78" y="114" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5f5c54">&pound;0</text>
+        <rect x="230" y="42" width="180" height="78" fill="#b23a2e"/>
+        <text x="320" y="32" text-anchor="middle" font-family="Fraunces,serif" font-size="18" font-weight="600" fill="#b23a2e">+£393m</text>
+        <text x="320" y="240" text-anchor="middle" font-family="IBM Plex Sans" font-size="12.5" fill="#5f5c54">Tax relief</text>
+        <text x="320" y="108" text-anchor="middle" font-family="IBM Plex Sans" font-size="11.5" fill="#fff">COST</text>
+        <rect x="540" y="120" width="180" height="8" fill="#1f5c6b"/>
+        <text x="630" y="150" text-anchor="middle" font-family="Fraunces,serif" font-size="18" font-weight="600" fill="#1f5c6b">&minus;£39m</text>
+        <text x="630" y="240" text-anchor="middle" font-family="IBM Plex Sans" font-size="12.5" fill="#5f5c54">Co-investment</text>
+        <text x="630" y="180" text-anchor="middle" font-family="IBM Plex Sans" font-size="11.5" fill="#1f5c6b">~ BREAK-EVEN</text>
+      </svg>
+      <p class="cap">Exchequer net position per &pound;1bn of private capital. Once the state holds equity rather than writing a cheque, the sign changes from cost to roughly break-even, and the investor is no worse off.</p>
+
+      <h2 style="margin-top:12px">Cost, both investors matched (central)</h2>
+      <table>
+        <thead><tr><th>Event</th><th>Private</th><th>Gov match</th><th>Deployed</th></tr></thead>
+        <tbody>
+          <tr><td>Retail match (25%)</td><td>&pound;3.15bn</td><td>&pound;0.79bn</td><td>&pound;3.94bn</td></tr>
+          <tr><td>Pension match (25%)</td><td>&pound;0.63bn</td><td>&pound;0.16bn</td><td>&pound;0.79bn</td></tr>
+          <tr><td><b>Total</b></td><td><b>&pound;3.78bn</b></td><td><b>&pound;0.94bn</b></td><td><b>&pound;4.72bn</b></td></tr>
+        </tbody>
+      </table>
+      <p class="cap">Matching the pension as well as retail adds only <b>&pound;0.16bn</b> of gross outlay &mdash; small, recoverable, and worth it to keep one uniform, legible structure rather than a two-tier rule. The &pound;0.94bn match is cash that leaves up front and is expected back with the capped return.</p>
+
+      <h2 style="margin-top:12px">The hinge: additionality</h2>
+      <svg viewBox="0 0 920 250" role="img" aria-label="Benefit-cost ratio versus additionality">
+        <g stroke="#cfc8b8" stroke-width="1">
+          <line x1="70" y1="210" x2="890" y2="210"/>
+          <line x1="70" y1="140" x2="890" y2="140" stroke-dasharray="2 4"/>
+          <line x1="70" y1="70" x2="890" y2="70" stroke-dasharray="2 4"/>
+        </g>
+        <g font-family="IBM Plex Mono, monospace" font-size="12" fill="#5f5c54" text-anchor="end">
+          <text x="62" y="214">0&times;</text><text x="62" y="144">1&times;</text><text x="62" y="74">2&times;</text>
+        </g>
+        <line x1="70" y1="140" x2="890" y2="140" stroke="#b23a2e" stroke-width="1.5"/>
+        <text x="884" y="132" font-family="IBM Plex Sans" font-size="11.5" fill="#b23a2e" text-anchor="end" font-weight="600">creates value above here</text>
+        <polyline fill="none" stroke="#1f5c6b" stroke-width="3.2" stroke-linejoin="round"
+          points="70,175.5 207,158 344,140.5 481,123 618,105.5 755,88 890,70.5"/>
+        <line x1="338" y1="210" x2="338" y2="140" stroke="#b23a2e" stroke-width="2" stroke-dasharray="5 4"/>
+        <circle cx="338" cy="140" r="4.5" fill="#b23a2e"/>
+        <text x="346" y="202" font-family="IBM Plex Sans" font-size="12.5" font-weight="600" fill="#b23a2e">break-even &asymp; 39%</text>
+        <circle cx="618" cy="105.5" r="4.5" fill="#1f5c6b"/>
+        <text x="618" y="95" font-family="IBM Plex Sans" font-size="11.5" font-weight="600" fill="#1f5c6b" text-anchor="middle">central 1.53&times;</text>
+        <g font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#5f5c54" text-anchor="middle">
+          <text x="70" y="230">20%</text><text x="344" y="230">40%</text><text x="618" y="230">60%</text><text x="890" y="230">80%</text>
+        </g>
+      </svg>
+      <p class="cap">Additionality is the share of investment that is genuinely new rather than displaced. Below about 39% the scheme destroys value; above it, it creates value. HMRC's EIS evaluations cannot pin it down precisely, so the policy's worth is an empirical bet on keeping it above 50%, protected by tight qualifying rules and the discipline of institutional co-investment.</p>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <h2>Why co-invest, and why not just expand EIS</h2>
+    <p>A rebate is money the state never sees again; a matched equity stake is an asset it is repaid from. That single change moves the Exchequer from a &pound;393m cost to roughly break-even per &pound;1bn, and a visible match also draws more take-up than a rebate of equal value (the H&amp;R Block field trial found matching roughly doubled participation). EIS itself is the wrong vehicle to stretch: its size and age limits exclude scaling companies, so loosening it would inflate seed valuations rather than fund Series B and C. A separate co-investment tier aims at the gap the Treasury already recognises, costs less per pound, and gives the Mansion House pension money somewhere vetted to go.</p>
+  </div>
+  <div class="foot"><span>Model: author Monte Carlo and scenario grid, illustrative. Additionality and GVA multipliers are assumptions. Behavioural evidence: Duflo, Gale, Liebman, Orszag, Saez. Precedents: British Business Bank ECF and British Patient Capital.</span><span>p.2 of 5</span></div>
+</div>
+<!-- ============ PAGE 3: EXISTING INSTRUMENTS ============ -->
+<div class="page">
+  <div class="kicker"><span>Where It Sits · Existing Instruments · 3 of 5</span><span>v0.4 · illustrative</span></div>
+  <h1>What already exists, <span class="em">and what is missing</span></h1>
+  <p class="standfirst">The UK has tried most of the pieces separately: blanket reliefs at the seed end, a co-investment bank for funds, and one-off equity vehicles in a crisis. None combines retail access, growth-stage targeting and a self-funding equity structure. That combination is the gap SUIS fills.</p>
+
+  <table style="font-size:10.3px;margin-top:4px">
+    <thead><tr><th>Instrument</th><th style="text-align:left">Stage</th><th style="text-align:left">Mechanism</th><th style="text-align:left">Who invests</th><th style="text-align:left">State gets equity?</th></tr></thead>
+    <tbody>
+      <tr><td><b>SEIS</b></td><td style="text-align:left">Pre-seed</td><td style="text-align:left">50% relief</td><td style="text-align:left">Retail / angels</td><td style="text-align:left" class="warnc">No &mdash; gift</td></tr>
+      <tr><td><b>EIS</b></td><td style="text-align:left">Seed / early</td><td style="text-align:left">30% relief</td><td style="text-align:left">Retail / angels</td><td style="text-align:left" class="warnc">No &mdash; gift</td></tr>
+      <tr><td><b>VCT</b></td><td style="text-align:left">Early</td><td style="text-align:left">30% relief, pooled</td><td style="text-align:left">Retail (fund)</td><td style="text-align:left" class="warnc">No &mdash; gift</td></tr>
+      <tr><td><b>Enterprise Capital Funds</b></td><td style="text-align:left">Early VC</td><td style="text-align:left">Co-invest, capped return</td><td style="text-align:left">Gov + VC funds</td><td style="text-align:left" class="pos">Yes, capped</td></tr>
+      <tr><td><b>British Patient Capital</b></td><td style="text-align:left">Growth VC</td><td style="text-align:left">Fund-of-funds equity</td><td style="text-align:left">Gov (via funds)</td><td style="text-align:left" class="pos">Yes</td></tr>
+      <tr><td><b>Future Fund</b> (2020)</td><td style="text-align:left">Any (Covid)</td><td style="text-align:left">Convertible loan</td><td style="text-align:left">Gov + matched private</td><td style="text-align:left" class="pos">Yes, converts</td></tr>
+      <tr><td><b>Help-to-Buy equity loan</b></td><td style="text-align:left">Housing</td><td style="text-align:left">Matched equity, shared gain</td><td style="text-align:left">Gov + buyer</td><td style="text-align:left" class="pos">Yes, 20% stake</td></tr>
+      <tr><td style="border-top:1.5px solid var(--ink)"><b>SUIS (proposed)</b></td><td style="text-align:left;border-top:1.5px solid var(--ink)"><b>Scale-up</b></td><td style="text-align:left;border-top:1.5px solid var(--ink)"><b>Matched equity, capped + gifted</b></td><td style="text-align:left;border-top:1.5px solid var(--ink)"><b>Retail + pension, via funds</b></td><td style="text-align:left;border-top:1.5px solid var(--ink)" class="pos"><b>Yes, capped</b></td></tr>
+    </tbody>
+  </table>
+  <p class="cap">SEIS, EIS and VCT figures are statutory relief rates. ECF, BPC, Future Fund and Help-to-Buy are existing or former government equity programmes.</p>
+
+  <div class="grid" style="margin-top:14px">
+    <div>
+      <h2>What SUIS borrows</h2>
+      <div class="specrow"><span class="k">From ECF</span><span class="v">The capped-return waterfall: the state takes a limited return and leaves the upside to private investors, so it crowds capital in.</span></div>
+      <div class="specrow"><span class="k">From BPC</span><span class="v">Fund-of-funds delivery, so selection sits with private managers and the state never picks a company.</span></div>
+      <div class="specrow"><span class="k">From Help-to-Buy</span><span class="v">Matched equity with a shared gain, and the visible match that drove take-up.</span></div>
+      <div class="specrow"><span class="k">From EIS</span><span class="v">Retail access and the loss-relief floor, kept so ordinary savers can take part safely.</span></div>
+    </div>
+    <div>
+      <h2>What is new</h2>
+      <p>Each existing instrument has one or two of the needed features. None has all four at once:</p>
+      <div class="specrow"><span class="k">Stage</span><span class="v">Aimed squarely at the <b>&pound;5m&ndash;&pound;50m scale-up gap</b>, not seed (EIS/SEIS) or general VC (ECF/BPC).</span></div>
+      <div class="specrow"><span class="k">Access</span><span class="v">Open to <b>retail and pension money together</b>, matched on the same terms. ECF and BPC are institutional only; the reliefs are retail only.</span></div>
+      <div class="specrow"><span class="k">Cost</span><span class="v"><b>Self-funding by design</b>, unlike the reliefs, which are permanent gifts.</span></div>
+      <div class="specrow"><span class="k">Selection</span><span class="v">Crowd and manager-led. The state sets the <b>stage</b>, not the sector or the company.</span></div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <h2>On "picking winners"</h2>
+    <p>EIS and SEIS do not pick individual companies, but they do pick categories: the qualifying-trade rules decide which sectors and company types are eligible, and HMRC polices that boundary closely. So the state already makes a structural bet about what deserves support. SUIS narrows that bet to a single dimension, company stage, and hands every company-level and sector-level choice to private fund managers risking their own investors' money. The state chooses where to stand; the crowd chooses what to back. That is a smaller claim to foresight than the present schemes make, not a larger one.</p>
+  </div>
+  <div class="foot"><span>Sources: HMRC; British Business Bank (ECF, British Patient Capital); HM Treasury (Future Fund, Help to Buy). Structures summarised; terms vary by programme.</span><span>p.3 of 5</span></div>
+</div>
+<!-- ============ PAGE 4: SDRT + AFFORDABILITY ============ -->
+<div class="page">
+  <div class="kicker"><span>The Package · Stamp Duty &amp; Affordability · 4 of 5</span><span>v0.4 · illustrative</span></div>
+  <h1>Abolish stamp duty on shares, <span class="em">then add SUIS</span></h1>
+  <p class="standfirst">The two reforms attack the same problem from opposite ends. Abolishing stamp duty on shares lowers the cost of equity capital and lifts the secondary market; SUIS pushes primary capital into the growth-stage gap that abolition leaves untouched. Together they fit inside the &pound;5bn envelope.</p>
+  <div class="bluf"><b>The case for abolition.</b> The UK's 0.5% charge on share purchases is the highest equity-transaction tax of any major economy, and it still applies inside ISAs and SIPPs. It raises about <b>&pound;3.7bn</b> a year but raises the cost of capital for UK firms and pushes investors toward overseas markets and exempt instruments. AIM shares have been exempt since 2014, so abolition mainly affects the main market, the venue large UK companies are leaving.</div>
+
+  <div class="grid">
+    <div>
+      <h2>Why stamp duty is the strongest single cut</h2>
+      <div class="specrow"><span class="k">Bang per &pound;</span><span class="v"><b>&pound;2.89 of long-run GDP per &pound;1 of cost</b>, the top of the efficiency table and far above income-tax cuts.</span></div>
+      <div class="specrow"><span class="k">Self-funding</span><span class="v">Plausibly recovers much of its cost through higher trading, higher prices and a lower cost of capital.</span></div>
+      <div class="specrow"><span class="k">Hits savers</span><span class="v">It is the one charge an ISA does <b>not</b> shelter you from. Every UK-share ISA holder pays it on purchase.</span></div>
+      <div class="specrow"><span class="k">No country match</span><span class="v">No other major exchange levies a comparable tax. It is a self-imposed handicap on the FTSE.</span></div>
+      <p style="margin-top:8px">The complementarity matters. Abolition makes UK equity cheaper to hold and trade, helping every holder including ISA savers. It does nothing, on its own, for the company that cannot raise a Series B at home. SUIS does exactly that. One fixes the secondary market; the other fixes primary growth finance.</p>
+
+      <div class="note"><b>Note on the SUIS link.</b> Today an ISA does not exempt you from stamp duty, so raising the ISA allowance does nothing for the cost-of-capital drag on UK equity. Abolition does, which is why it is a better use of the same money than the ISA-allowance idea it replaces.</div>
+    </div>
+
+    <div>
+      <h2>Does it fit in &pound;5bn?</h2>
+      <table>
+        <thead><tr><th>Scenario</th><th>SDRT</th><th>Co-invest</th><th>Total</th><th>&lt;&pound;5bn</th></tr></thead>
+        <tbody>
+          <tr><td>Low</td><td>&pound;3.7bn</td><td>&pound;0.19bn</td><td>&pound;3.89bn</td><td class="pos">Yes</td></tr>
+          <tr><td><b>Central</b></td><td>&pound;3.7bn</td><td>&pound;0.94bn</td><td><b>&pound;4.64bn</b></td><td class="pos"><b>Yes</b></td></tr>
+          <tr><td>High</td><td>&pound;3.7bn</td><td>&pound;2.35bn</td><td>&pound;6.05bn</td><td class="warnc">No</td></tr>
+          <tr><td><b>Capped fund</b></td><td>&pound;3.7bn</td><td>&pound;1.0bn</td><td><b>&pound;4.70bn</b></td><td class="pos"><b>Yes</b></td></tr>
+        </tbody>
+      </table>
+      <p class="cap">Annual run-rate, crude addition (this repeats each year of the programme &mdash; see p.5 for the five-year roll-up). Co-invest figure is the gross 25% match on both retail and pension capital, the cash that leaves each year before recovery. Matching the pension lifts the match modestly (central from &pound;0.79bn to &pound;0.94bn).</p>
+
+      <h2 style="margin-top:12px">Three reasons the fit is better than it looks</h2>
+      <div class="specrow"><span class="k">Cappable</span><span class="v">A co-investment fund has a set budget. Relief is demand-led and uncapped. Set the fund at <b>&pound;1bn a year</b> and the high case cannot happen.</span></div>
+      <div class="specrow"><span class="k">Recoverable</span><span class="v">The &pound;3.7bn for stamp duty is lost <b>every year</b>. The co-investment is a one-off deployment expected back with a return. Adding them as equals overstates the burden.</span></div>
+      <div class="specrow"><span class="k">Off-deficit</span><span class="v">Equity purchases are <b>financial transactions</b>; like the Future Fund and the British Business Bank, they sit largely outside headline borrowing. The honest deficit cost of the SUIS leg is close to its expected loss, near zero, not the &pound;0.94bn gross.</span></div>
+      <p style="margin-top:6px">So on the crudest accounting the package lands near <b>&pound;4.6bn</b> at central uptake. On realistic accounting, stamp duty is almost the whole cost, and the co-investment leg is mostly a balance-sheet movement expected to return.</p>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <h2>The package</h2>
+    <p>Abolish stamp duty on shares (~&pound;3.7bn a year) and add a capped SUIS co-investment fund (~&pound;1bn a year, expected to return). Combined headline cost about &pound;4.7bn, inside the &pound;5bn envelope, and falling sharply once recovery and financial-transaction accounting are applied. Neither is a saving; both are the highest-growth use of &pound;5bn of fiscal room. The first lowers the cost of capital for every UK company; the second gets money into the ones that cannot raise it at home. They are complements, not rivals.</p>
+  </div>
+  <div class="foot"><span>Sources: HMRC SDRT receipts; Tax Policy Associates (D. Neidle, 2024); IFS; Peel Hunt; bang-for-buck figures per the uploaded chart. Co-invest costing: author model, illustrative.</span><span>p.4 of 5</span></div>
+</div>
+<!-- ============ PAGE 5: SYNTHESIS + CONCLUSION ============ -->
+<div class="page">
+  <div class="kicker"><span>Synthesis &amp; Conclusion · 5 of 5</span><span>v0.4 · illustrative</span></div>
+  <h1>If I had &pound;5bn a year <span class="em">of tax-cutting room</span></h1>
+  <p class="standfirst">Abolish stamp duty on shares, and run a Scale-Up Investment co-investment fund. The honest position depends on the horizon: within five years it is a real cost that buys near-term growth; in the long run it broadly pays for itself and leaves the economy permanently larger. Both views are shown below.</p>
+
+  <div class="bluf"><b>BLUF.</b> With &pound;5bn a year of room I would <b>abolish stamp duty on shares</b> and <b>run a SUIS co-investment fund</b>. <b>Within five years</b> the package is a genuine cost of about <b>&pound;18.5bn</b> &mdash; almost entirely the stamp-duty revenue forgone &mdash; that buys roughly <b>&pound;6bn of near-term scale-up GVA</b> and seeds a much larger long-run gain. <b>In the long run</b> it broadly <b>self-funds</b>: the ~&pound;10.7bn a year of extra GDP from cheaper equity capital generates roughly enough tax to cover the cost, while the economy stays permanently larger and the fund recycles toward zero net call. It is not neutral at year five, and it is not meant to be: it is a near-term cost for a durable structural gain, with no new cliff edge and a mechanism that is repaid rather than gifted.</div>
+
+  <div class="grid">
+    <div>
+      <h2>Table 1 &mdash; within five years</h2>
+      <table>
+        <thead><tr><th>&nbsp;</th><th>SUIS</th><th>SDRT</th><th>Combined</th></tr></thead>
+        <tbody>
+          <tr><td><b>Treasury cost</b></td><td class="pos">~&pound;0*</td><td class="warnc">&pound;18.5bn</td><td class="warnc"><b>~&pound;18.5bn</b></td></tr>
+          <tr><td>GVA (in window)</td><td class="pos">&pound;6.1bn</td><td class="vs">~&pound;16bn&Dagger;</td><td><b>~&pound;22bn</b></td></tr>
+          <tr><td>Investor wealth</td><td class="vs">matures yr 8+&dagger;</td><td class="vs">all holders</td><td class="vs">&mdash;</td></tr>
+        </tbody>
+      </table>
+      <p class="cap">Five annual cohorts, ~7-year hold. *SUIS gross outlay &pound;4.7bn is recoverable, but on a 7-year hold the <b>first cohort matures only in year 8</b>, so nothing returns or is realised within the window &mdash; cost is cash-out, recovery later. GVA accrues over each cohort's 7-year life, so less lands in the window (&pound;6.1bn vs &pound;8.5bn on a 5-year spread). &Dagger;SDRT's GDP gain is still <b>ramping</b> (reaches ~&pound;5.3bn/yr by year 5). &dagger;Investor wealth matures from year 8 (outside the window) and accrues to investors, <b>not the Exchequer</b>; never netted against cost.</p>
+
+      <h2 style="margin-top:13px">Table 2 &mdash; long-run (steady state, ~yr 12+), annual</h2>
+      <table>
+        <thead><tr><th>&nbsp;</th><th>SDRT</th><th>SUIS</th><th>Combined</th></tr></thead>
+        <tbody>
+          <tr><td>Static cost</td><td class="warnc">&pound;3.7bn/yr</td><td class="pos">~&pound;0</td><td class="warnc">&pound;3.7bn/yr</td></tr>
+          <tr><td>GDP / GVA uplift</td><td class="pos">+&pound;10.7bn/yr</td><td class="pos">+&pound;2.8bn/yr</td><td class="pos">+&pound;13.5bn/yr</td></tr>
+          <tr><td>Tax recouped</td><td class="pos">~&pound;3.7bn/yr</td><td class="pos">~&pound;0.9bn/yr</td><td class="pos">~&pound;4.6bn/yr</td></tr>
+          <tr><td><b>Net fiscal</b></td><td class="pos"><b>~&pound;0/yr</b></td><td class="pos"><b>~&pound;0/yr</b></td><td class="pos"><b>~&pound;0/yr</b></td></tr>
+          <tr><td>Investor wealth&sect;</td><td class="vs">&mdash;</td><td class="pos">~&pound;9.3bn/yr</td><td class="pos"><b>~&pound;9.3bn/yr</b></td></tr>
+        </tbody>
+      </table>
+      <p class="cap">At maturity the extra GDP throws off roughly enough tax to cover the static cost. The economy is left <b>permanently larger</b> and the fund recycles toward a zero net call. Recoupment at ~35% of GDP. &sect;In steady state one cohort exits each year, returning ~&pound;9.3bn of ending wealth (~&pound;5.5bn gain) annually &mdash; this flow is the same whatever the hold length, since one cohort also launches each year. <b>The model assumes a ~7-year hold to exit</b>, typical for growth-stage venture; the net IRR is about <b>13%</b> (the &pound;2.46 multiple over seven years). The LTAF wrapper locks the capital up, so this suits patient savers, not those needing liquidity.</p>
+    </div>
+
+    <div>
+      <h2>Why removing SDRT is the point</h2>
+      <p>A tax cut pays for itself in the long run if its GDP multiplier beats <b>1 &divide; the tax-to-GDP ratio</b>. At a 35% ratio that threshold is <b>2.86</b>. The estimated multiplier for abolishing stamp duty on shares is <b>2.89</b> &mdash; just above it.</p>
+      <div class="specrow"><span class="k">Mechanism</span><span class="v">Removing the 0.5% charge lowers the cost of equity capital, lifts investment and valuations, and raises GDP by about <b>&pound;10.7bn a year</b> at maturity (2.89 &times; &pound;3.7bn).</span></div>
+      <div class="specrow"><span class="k">Self-funding</span><span class="v">That extra GDP generates roughly <b>&pound;3.7bn a year</b> of tax at a 35% take &mdash; about equal to the &pound;3.7bn cost. Net long-run fiscal cost approaches <b>zero</b>.</span></div>
+      <div class="specrow"><span class="k">The prize</span><span class="v">A <b>permanently larger economy</b> at roughly no standing fiscal cost. That is the whole case for abolition; without it, there would be no reason to give up the revenue.</span></div>
+      <div class="note"><b>Why it is not in Table 1.</b> The GDP level effect is reached over roughly a decade, so little of it lands inside the five-year window. Counting SDRT's full cost in the short run but its benefit only in the long run is honest, not pessimistic &mdash; it is simply when each arrives.</div>
+
+      <h2 style="margin-top:12px">One coherent argument</h2>
+      <p>The thread runs straight. The objection to a tax-free overtime band was that it adds a cliff edge and rewards relabelling, not work. The disciplined alternative is to spend fiscal room removing distortions and filling genuine gaps. Stamp duty abolition removes the clearest distortion in the capital-market tax base and broadly pays for itself in growth; the co-investment fund fills the clearest gap in growth finance, repaid rather than gifted.</p>
+
+      <h2 style="margin-top:10px">Sequence</h2>
+      <div class="specrow"><span class="k">Year 1</span><span class="v">Abolish SDRT. Launch the SUIS fund inside the British Business Bank, capped at &pound;1bn a year. <b>Both tiers live from the start</b>: certified sophisticated/HNW angels direct, all other retail through the pooled fund.</span></div>
+      <div class="specrow"><span class="k">Years 2&ndash;5</span><span class="v">A new cohort annually; designate SUIS firms toward the Mansion House 5% UK allocation; match retail and pension (pension at a lower rate if double-subsidy is challenged).</span></div>
+      <div class="specrow"><span class="k">Year 8&ndash;12</span><span class="v">First SUIS cohorts mature (7-year hold) and recycle; SDRT growth dividend matures toward self-funding, so the annual call falls toward zero.</span></div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <h2>Conclusion</h2>
+    <p>Work out the cliff edges we already have rather than inventing new ones. Within five years this package costs about &pound;18.5bn &mdash; a real, mostly-stamp-duty cost &mdash; and buys around &pound;22bn of near-term GVA plus the foundations of a durable gain. In the long run it broadly self-funds, because the &pound;2.89-per-&pound;1 growth dividend on stamp duty just clears the threshold at which a cut pays for itself, leaving the economy permanently larger while the fund recycles toward a zero net call. It is a near-term cost for a structural prize, it leaves the investor whole, and it adds no new distortion. It is the more disciplined use of the money, and it is the one I would make.</p>
+    <p style="margin-top:8px;font-family:'Fraunces',serif;font-size:13.5px;font-style:italic;color:var(--accent)">The punchline: once running at scale, the fund returns about &pound;9.3bn a year of wealth to British savers &mdash; over a decade of mature operation roughly <b>&pound;93bn, about one entire HS2</b> (&pound;102.7bn) &mdash; but at close to zero net public cost. The same scale as the railway, on the opposite side of the ledger: private wealth created, not public money spent.</p>
+  </div>
+  <div class="foot"><span>Consolidates pp.1&ndash;4. Figures illustrative. SUIS from author Monte Carlo; SDRT static from HMRC receipts, multiplier (2.89) and long-run GDP per published estimates; self-funding at ~35% tax/GDP. HS2 benchmark £102.7bn (Phase 1 completion, 2025 prices, May 2026). Neither reform is a saving; both are uses of fiscal room with a long-run growth return.</span><span>p.5 of 5</span></div>
+</div>
+
+</body>
+</html>
